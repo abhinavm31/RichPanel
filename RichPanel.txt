@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Login/Signup</title>
+       
+          
+            	<link rel="stylesheet" href="loginsignup.css">
+</head>
+    
+<body>
+    <script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+   
+  <div class="topnav" id="myTopnav">
+  <a href="home2.html">Home</a>
+  <a href="news.html">News</a> 
+ <a href="loginsignup.html" class="active">Login/SignUp</a>
+ <a href="aboutus.html">About Us</a>
+ <a href="feedback.html">Feedback/Review</a>
+ <a href="123.html">Terms & Conditions</a>
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+	
+     <!-------------------------------M A I N  P A G E---------------------------------------------------->
+    <section id="login">
+    <h3>Login in to your account</h3>
+        
+        <form title="Login">
+            <fieldset title="Login">
+                <legend>Login</legend>
+            Email : <input type="email" placeholder="Enter your email"><br>
+            Password: <input title="password" placeholder="Password Please!">
+    
+            </fieldset>
+            </form>
+		<div class="btndiv"><button type="submit" class="btn">LOGIN</button></div>
+<!--------------------------------------------------------------------------->
+           <h3>JOIN OUR COMMUNITY</h3>
+        <form>
+            <fieldset title="Signup">
+        <legend>Signup</legend>
+                
+        Name : <input type="text" placeholder=" Full name"><br>
+        Date of Birth: <input type="date" placeholder="1.1.19">
+        
+        Email : <input type="email" placeholder="example@abc.com"><br>
+        
+        Phone-Number : <input type="tel" placeholder="10 Digit Mobile Number"><br>
+        Password : <input type="password" placeholder="Create a password of 8-16 characters">    
+            </fieldset>
+                </form>
+    <div class="btndiv"><button type="submit" class="btn">SIGNUP</button></div>
+    
+    </section>
+    
+          </body>    
+    <!------------page over-------------------------------------------------------->
+</html>
